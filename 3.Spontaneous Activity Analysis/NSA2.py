@@ -6,7 +6,7 @@ def NSA(snn_category, bnn_category, rec_time, cc_type, cc_bin_time):
     snn_nneurons = 1024
     snn_fs = 1000                           # Hz [samples/s]
     snn_sim_time_samples = rec_time*snn_fs  # in samples
-    snn_fdir = './Thesis Data/snn'
+    snn_fdir = './data/snn'
     snn_fnames = [fname for fname in os.listdir(snn_fdir) if os.path.isfile(os.path.join(snn_fdir,fname)) and snn_category in fname] 
     snn_data = [np.genfromtxt(os.path.join(snn_fdir,ifname), skip_header=1, delimiter=';') for isnn in np.arange(len(snn_fnames)) for ifname in snn_fnames if 'SNN'+str(isnn+1)+'-' in ifname]
     print('SNN data analysis...')
@@ -19,7 +19,7 @@ def NSA(snn_category, bnn_category, rec_time, cc_type, cc_bin_time):
     print('BNN data loading...')
     bnn_fs = 25000                          # Hz [samples/s]
     bnn_sim_time_samples = rec_time*bnn_fs  # in samples
-    bnn_fdir = './Thesis Data/bnn'
+    bnn_fdir = './data/bnn'
     bnn_data = [np.genfromtxt(os.path.join(bnn_fdir,fname), skip_header=1, delimiter=',') for fname in os.listdir(bnn_fdir) if os.path.isfile(os.path.join(bnn_fdir,fname)) and bnn_category in fname]
     print('BNN data analysis...')
     bnn_timestamps = [preprocessing_bnn(rat, bnn_sim_time_samples) for rat in bnn_data]

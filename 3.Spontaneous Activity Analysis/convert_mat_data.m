@@ -3,8 +3,8 @@ close all
 clear
 clc
 
-spike_train_directory = uigetdir('C:\Users\Giuseppe\Desktop','Select Spike Train Directory with Rat Groups');
-raster_directory = uigetdir('C:\Users\Giuseppe\Desktop','Select the folder where to save the ''raster'' file');
+spike_train_directory = uigetdir(cd,'Select Spike Train Directory with Rat Groups');
+raster_directory = uigetdir(cd,'Select the folder where to save the ''raster'' file');
 
 %--> read rats names
 groups = dir(fullfile(spike_train_directory,'*-*'));

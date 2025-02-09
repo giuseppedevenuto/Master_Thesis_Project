@@ -172,9 +172,10 @@ for i in range(len(CONFIGS)):
 
     table.append(iconf)
 
-workbook = xlsxwriter.Workbook('Results1.xlsx') # <EDIT>
+os.makedirs('./derivatives', exist_ok=True)
+workbook = xlsxwriter.Workbook('./derivatives/Results1.xlsx') # <EDIT>
 worksheet = workbook.add_worksheet()
 workbook.close()
 
 results = pd.DataFrame(table, index = idx, columns=col)
-results.to_excel("Results1.xlsx", sheet_name="Sheet1") # <EDIT>
+results.to_excel("./derivatives/Results1.xlsx", sheet_name="Sheet1") # <EDIT>
