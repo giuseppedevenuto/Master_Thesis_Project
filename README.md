@@ -37,7 +37,7 @@ If you use the code in this repository in your research, please cite:
 1. **The original BioemuS repository (GPLv3 code):**  
    - Ceramic-Blue-Tim/bioemus, GPLv3
 
-2. **The associated papers for neuron configuration scripts:**
+2. **The associated papers:**
 
 - **Beaubois, R., Cheslet, J., Duenki, T., De Venuto, G., Carè, M., Khoyratee, F., ... & Levi, T. (2024).**  
   *BiœmuS: A new tool for neurological disorders studies through real-time emulation and hybridization using biomimetic Spiking Neural Network.*  
@@ -49,7 +49,7 @@ If you use the code in this repository in your research, please cite:
   In 2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 1-4. IEEE.  
   [https://doi.org/10.1109/EMBC53108.2024.10781591](https://doi.org/10.1109/EMBC53108.2024.10781591)
 
-> Including these citations ensures proper credit for both the original GPL code and the contributions in this project.
+> Citing these papers ensures proper credit to the authors of the original code.
 
 ---
 
