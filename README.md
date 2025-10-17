@@ -63,4 +63,3 @@ In vivo and SNN data can be provided upon request.
 
 - All code in `3.BioemuS configuration pyscripts/` follows **GPLv3**.  
 - When using the code for publications or research, please adhere to **GPLv3 terms** and cite the papers listed above.  
-- For direct citation in GitHub, see the [CITATION.cff](./CITATION.cff) file.
