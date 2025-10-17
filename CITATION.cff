@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following references."
+authors:
+  - family-names: Beaubois
+    given-names: R.
+  - family-names: Cheslet
+    given-names: J.
+  - family-names: Duenki
+    given-names: T.
+  - family-names: De Venuto
+    given-names: G.
+  - family-names: Carè
+    given-names: M.
+  - family-names: Khoyratee
+    given-names: F.
+  - family-names: Levi
+    given-names: T.
+title: "BiœmuS: A new tool for neurological disorders studies through real-time emulation and hybridization using biomimetic Spiking Neural Network"
+version: "1.0.0"
+doi: "10.1038/s41467-024-48905-x"
+date-released: 2025-10-17
+url: "https://github.com/TUO-REPO/NOME-REPO"
+
+references:
+  - type: article-journal
+    authors:
+      - family-names: Beaubois
+        given-names: R.
+      - family-names: Cheslet
+        given-names: J.
+      - family-names: Duenki
+        given-names: T.
+      - family-names: De Venuto
+        given-names: G.
+      - family-names: Carè
+        given-names: M.
+      - family-names: Khoyratee
+        given-names: F.
+      - family-names: Levi
+        given-names: T.
+    title: "BiœmuS: A new tool for neurological disorders studies through real-time emulation and hybridization using biomimetic Spiking Neural Network"
+    journal: "Nature Communications"
+    volume: 15
+    issue: 1
+    pages: 5142
+    year: 2024
+    doi: "10.1038/s41467-024-48905-x"
+
+  - type: in-proceedings
+    authors:
+      - family-names: De Venuto
+        given-names: G.
+      - family-names: Beaubois
+        given-names: R.
+      - family-names: Zahedi
+        given-names: S.
+      - family-names: Carè
+        given-names: M.
+      - family-names: Cheslet
+        given-names: J.
+      - family-names: Barban
+        given-names: F.
+      - family-names: Levi
+        given-names: T.
+    title: "Recapitulating the electrophysiological features of in vivo biological networks by using a real-time hardware spiking neural network"
+    booktitle: "2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+    pages: "1-4"
+    year: 2024
+    doi: "10.1109/EMBC53108.2024.10781591"
